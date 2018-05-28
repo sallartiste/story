@@ -266,17 +266,17 @@ label {
 	bottom:30px;
 	right:15px;
 	display:none;
-	background:rgba(0, 199, 177, .8);
+	background:rgba(255, 238, 0, .8);
 	text-align: center;
 }
 .scrollup i {
-	color:#fff;
+	color:#000;
 	font-size:15px;
 	display:block;
 	line-height:33px;
 }
 .scrollup:hover {
-	background:rgba(0, 199, 177, .9);
+	background:rgba(255, 238, 0, .9);
 }
 /*-----------------------------------------------------------------*/
 /* Navigation
@@ -442,6 +442,11 @@ section .container {
 .section-heading.white h2 {
 	color:#FFF;
 }
+
+#clients .section-heading.white h2 {
+	color:#000;
+}
+
 .section-heading {
 	margin: 0px 0px 70px;
 }
