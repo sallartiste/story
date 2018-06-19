@@ -1523,7 +1523,7 @@ ul.work li.active, ul.work li:hover {
 	margin:15px 0px;
 }
 /*-----------------------------------------------------------------*/
-/* Client Logo Carousel
+/* Client Logo
 /*-----------------------------------------------------------------*/
 
 #clients {
@@ -1531,18 +1531,15 @@ ul.work li.active, ul.work li:hover {
 	text-align:center;
 	padding:60px 0px;
 }
-.clients-carousel .item figure {
-	margin: 10px;
-	width: 150px;
-	margin: 0 auto;
-	background: #FFF;
-	padding: 20px;
-	border: 2px solid #ddd;
+
+#clients h4{
+	font-size: 2em;
 }
-.clients-carousel .item figure img {
-	display: block;
-	margin: 0 auto;
+
+.part-logo{
+	margin-bottom: 50px;
 }
+
 /*--------------------------------------------*/
 /*   Contact Section
 /*--------------------------------------------*/
