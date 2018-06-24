@@ -537,10 +537,10 @@ element {
 .tab-content-main {
 	padding: 70px 0px 0px;
 }
-.tab-content-main img {
+/*.tab-content-main img {
 	float: left;
 	margin-right: 75px;
-}
+}*/
 .tab-content-main h3 {
 	font-size:20px;
 }
