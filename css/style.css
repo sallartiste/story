@@ -537,13 +537,14 @@ element {
 .tab-content-main {
 	padding: 70px 0px 0px;
 }
-.tab-content-main img {
+/*.tab-content-main img {
 	float: left;
 	margin-right: 75px;
-}
+}*/
 .tab-content-main h3 {
 	font-size:20px;
 }
+
 .tab1-features {
 	margin-bottom:30px;
 }
@@ -971,6 +972,20 @@ ul.work li.active, ul.work li:hover {
 	padding: 25px 15px 20px;
 	background: #FFF;
 }
+
+.gride-agile img{
+	margin: 0 auto;
+}
+
+.gride-agile {
+	margin-bottom: 15px;
+}
+
+.profile-text h6{
+	text-align: center;
+	font-size: .9em;
+	margin-top: 5px;
+}
 .panel-group .panel-heading {
 	cursor: pointer;
 	padding: 15px 15px;
@@ -1252,6 +1267,16 @@ ul.work li.active, ul.work li:hover {
 	margin-bottom: 50px;
 }
 
+.part-logo img{
+	width: 150px;
+	height: auto;
+}
+
+.item-1{
+	height: 150px;
+	overflow: hidden;
+}
+
 /*--------------------------------------------*/
 /*   Contact Section
 /*--------------------------------------------*/
@@ -1300,6 +1325,7 @@ footer {
 }
 .copyright p {
 	color:#b1afaf;
+	font-size: .8em;
 }
 .social-icons {
 	width: 100%;
@@ -1334,7 +1360,14 @@ footer {
 }
 
 .jobs{
-	text-align: right;
+	text-align: center;
 	color: #fff;
+}
 
+.jobs p{
+	line-height: 1.2em;
+}
+
+.jobs h3{
+	color: #fe0;
 }
