@@ -881,7 +881,9 @@ ul.work li.active, ul.work li:hover {
 /*--------------------------------------------*/
 /*   Team Members Section
 /*--------------------------------------------*/
-
+.team-section{
+	padding-top: 20px;
+}
 .team-members {
 	margin-bottom: 30px;
 }
@@ -1032,7 +1034,8 @@ ul.work li.active, ul.work li:hover {
 /*--------------------------------------------*/
 
 .facts {
-	background: url(../images/facts-bg.jpg);
+	background: url(../images/facts-bg.jpg) no-repeat center center;
+	background-size: cover;
 	padding: 90px 0px 60px;
 }
 .facts-box {
@@ -1131,7 +1134,7 @@ ul.work li.active, ul.work li:hover {
 /*--------------------------------------------*/
 
 .blog-item {
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 .blog-item .blog-media img {
 	width:100%;
@@ -1162,22 +1165,34 @@ ul.work li.active, ul.work li:hover {
 /*--------------------------------------------*/
 
 .testimonial-section {
-	background:url(../images/testimonial-bg.jpg) no-repeat;
-	background-size:cover;
+	/*background:url(../images/testimonial-bg.jpg) no-repeat;
+	background-size:cover;*/
+}
+
+.testimonial-section .overlay{
+	/*background:url(../images/testimonial-bg.jpg) no-repeat;
+	background-size:cover;*/
+	background-color: #fff;
+}
+
+.presse{
+	margin-bottom: 25px;
+}
+
+.presse a{
+	color: orange;
 }
 .testimonial-item {
 	text-align: center;
 	padding-bottom: 20px;
 }
 .testimonial-item p {
-	color: #FFF;
 	position: relative;
 	line-height: 38px;
 	font-style: italic;
 	font-size: 17px;
 }
 .testimonial-item h5 {
-	color: #FFF;
 	text-transform: uppercase;
 	font-size: 16px;
 	text-align: center;
@@ -1186,7 +1201,6 @@ ul.work li.active, ul.work li:hover {
 	letter-spacing: 2px;
 }
 .testimonial-item h5 small {
-	color: #FFF;
 	display: block;
 	margin: 9px 0px 0px;
 	font-size: 13px;
@@ -1194,61 +1208,7 @@ ul.work li.active, ul.work li:hover {
 	font-weight: 700;
 	font-style: italic;
 }
-/*--------------------------------------------*/
-/*   Pricing  Section
-/*--------------------------------------------*/
 
-.pricing-box {
-	padding: 30px 20px;
-	text-align: center;
-	box-shadow: 0px 0px 19px #ccc;
-	margin-bottom: 30px;
-}
-.pricing-box h3 {
-	font-size: 25px;
-	text-transform: uppercase;
-}
-.pricing-box .pricing-header {
-	margin: 30px 0px 30px;
-	display: inline-block;
-	width: 120px;
-	height: 120px;
-	border: 2px solid #00C7B1;
-	border-radius: 50%;
-	background: #00C7B1;
-}
-.pricing-box .pricing-header span.price {
-	font-weight: 700;
-	font-size: 35px;
-	margin: 35px 0px 0px;
-	display: inline-block;
-	color: #FFF;
-}
-.pricing-box .pricing-header span.month {
-	display: block;
-	font-size: 15px;
-	text-transform:uppercase;
-	font-weight:700;
-	color: #FFF;
-	line-height: 37px;
-}
-.pricing-box ul {
-	margin:0px;
-	padding:0px;
-}
-.pricing-box ul li {
-	display: block;
-	margin-bottom: 19px;
-	font-size: 17px;
-	font-weight: 500;
-	border-bottom: 1px solid #f0efef;
-	padding-bottom: 20px;
-	color: #262424;
-}
-.pricing-box .pricing-btn .btn {
-	padding: 10px 34px;
-	margin:15px 0px;
-}
 /*-----------------------------------------------------------------*/
 /* Client Logo
 /*-----------------------------------------------------------------*/
@@ -1256,25 +1216,45 @@ ul.work li.active, ul.work li:hover {
 #clients {
 	background:#fff;
 	text-align:center;
-	padding:60px 0px;
+	padding:120px 0px;
 }
 
 #clients h4{
 	font-size: 2em;
+	margin-bottom: 50px;
 }
 
-.part-logo{
+.part-logo, .part-logo-1{
 	margin-bottom: 50px;
 }
 
 .part-logo img{
-	width: 150px;
+	/*width: 150px;*/
 	height: auto;
+}
+
+.logos .item-1:nth-child(5){
+	width: inherit;
+	margin: 0 auto;
+}
+
+.logos>img:nth-child(5){
+	border:1px solid red;
+	width: inherit;
+	margin: 0 auto;
 }
 
 .item-1{
 	height: 150px;
 	overflow: hidden;
+}
+
+.logo-franco{
+	width: inherit;
+}
+
+.poto{
+	width: 300px;
 }
 
 /*--------------------------------------------*/
