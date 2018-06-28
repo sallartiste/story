@@ -1371,3 +1371,16 @@ footer {
 .jobs h3{
 	color: #fe0;
 }
+
+.pic-credit{
+	text-align: right;
+}
+
+.modal-content img{
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+.profile-text small{
+	font-size: .6em;
+}
