@@ -112,14 +112,12 @@
 	margin-top:15px;
 }
 
-.timeline .timeline-item::after {
-    right: -7.8%;
-}
-.timeline .timeline-item:nth-of-type(2n)::after {
-    left: -7.8%;
-}
 .social-icons , .copyright{
     text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 20px;
 }
 
 }

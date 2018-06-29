@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="fr">
     <head>
@@ -33,13 +35,13 @@
 
     <body  data-spy="scroll" data-target="#main-menu">
 
-        <!--Start Page loader -->
+        <!--Start Page loader
         <div id="pageloader">
             <div class="loader">
                 <img src="images/progress.gif" alt='loader' />
             </div>
         </div>
-        <!--End Page loader -->
+        End Page loader -->
 
         <!--Start Navigation-->
         <header id="header">
@@ -54,7 +56,7 @@
                         </button>
                         <!--Start Logo -->
                         <div class="logo-nav">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="images/logo-big.png" alt="Company logo" class="img-responsive" />
                             </a>
                         </div>
@@ -284,7 +286,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="video-inner text-center">
-                            <a name="trailer" href="https://www.youtube.com/watch?v=rN2hXy3EN58" class="video-play mfp-iframe">
+                            <a name="trailer" href="https://www.youtube.com/embed/rN2hXy3EN58" class="video-play mfp-iframe">
                                 <i class="fa fa-play"></i>
                             </a>
                             <h2>Découvrez notre Teaser</h2>
@@ -581,28 +583,6 @@
                                                     </div>
                                                 </div>
 
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="tab-pane" id="tab-content-5">
-
-                                            <div class="tab-content-5">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-
-                                                    </div>
-                                                    <!-- End Video caption-->
-
-                                                    <div class="col-md-6">
-                                                        <div class="play-video">
-                                                            <iframe src="http://player.vimeo.com/video/115919099?title=0&amp;byline=0&amp;portrait=0&amp;color=fff" allowfullscreen></iframe>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
 
                                             </div>
 
@@ -1565,3 +1545,4 @@
     </body>
 
 </html>
+<?php include 'php/main.php' ?>

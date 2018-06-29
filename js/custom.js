@@ -34,13 +34,13 @@
       ],
 		dots: false,
 		loop: false,
-		items : 1, 
+		items : 1,
 		autoplay:true,
 		autoplay:1000,
 	    loop:true,
-   }) 
-	
-	
+   })
+
+
 /*------------------------------*/
 /*	Testimonial Carousel
 /*------------------------------*/
@@ -51,16 +51,16 @@
 		nav: false,
 		dots: false,
 		loop: false,
-		items : 1, 
+		items : 1,
 		autoplay:true,
 		autoplay:1000,
 	    loop:true,
-   }) 
-	
+   })
+
 /*------------------------------*/
 /*	Clients Carousel
 /*------------------------------*/
-  
+
  $('.clients-carousel').owlCarousel({
 		loop:true,
 		margin:10,
@@ -80,7 +80,7 @@
         }
       }
    })
-   
+
 /*------------------------------*/
 /*	work Shorting
 /*------------------------------*/
@@ -121,28 +121,28 @@
 		});
 		 })(jQuery);
 
-		$('.collapse ul li a').click(function(){ 
+		$('.collapse ul li a').click(function(){
 		$('.navbar-toggle:visible').click();
-	   });	
+	   });
 
 
 /*------------------------------*/
 /*	 Scroll to top
 /*------------------------------*/
-	 
+
 	$(window).scroll(function(){
 			if ($(this).scrollTop() > 100) {
 				$('.scrollup').fadeIn();
 			} else {
 				$('.scrollup').fadeOut();
 			}
-		}); 
- 
+		});
+
 		$('.scrollup').click(function(){
 			$("html, body").animate({ scrollTop: 0 }, 2000);
 			return false;
   });
-   
+
 
 /*------------------------------*/
 /*	 Parallax
@@ -153,15 +153,15 @@
 		if(!onMobile)
 		parallaxInit();
 	});
-	
+
 	function parallaxInit() {
 		$('#history').parallax("50%", 0.2);
 		$('#facts').parallax("50%", 0.2);
 		$('#cta ').parallax("50%", 0.2);
 		$('#testimonials').parallax("50%", 0.2);
 		$('#contact').parallax("50%", 0.2);
-		
-		
+
+
 	}
 		var onMobile = false;
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
@@ -178,9 +178,10 @@
 	windowHeight = $(window).height();
 	$('.full-height').css('height', windowHeight);
 	};
-	
+
 	fullHeight();
 	$(window).resize(function() {
 		fullHeight();
 	});
-	
+
+    
