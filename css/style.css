@@ -1180,7 +1180,8 @@ ul.work li.active, ul.work li:hover {
 }
 
 .presse a{
-	color: orange;
+	color: #5472AE;
+	text-decoration: underline;
 }
 .testimonial-item {
 	text-align: center;
