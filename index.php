@@ -286,7 +286,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="video-inner text-center">
-                            <a name="trailer" href="https://www.youtube.com/embed/rN2hXy3EN58" class="video-play mfp-iframe">
+                            <a name="trailer" href="https://www.youtube.com/watch?v=rN2hXy3EN58" class="video-play mfp-iframe">
                                 <i class="fa fa-play"></i>
                             </a>
                             <h2>Découvrez notre Teaser</h2>
