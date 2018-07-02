@@ -913,6 +913,9 @@
                                 <li><a alt="youtube" href="https://www.youtube.com/channel/UCVVNUlZpqdWm1YujyhDVn6w" target="_blank" rel="noopener"><i class="fa fa-youtube"></i></a></li>
                                 <li><a alt="linkedin" href="https://www.linkedin.com/company/success-diverstory/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
+                            <p>
+                              TVA: 0000/ 000.000.000
+                            </p>
                         </div>
                     </div>
                     <!--Start copyright-->
