@@ -72,7 +72,7 @@
                                 <li> <a href="#testimonials">Presse</a></li>
                                 <li> <a href="#clients">Partenaires</a> </li>
                                 <li> <a href="#contact">Contact</a> </li>
-                                <li> <a href="#">Nous Soutenir</a> </li>
+                                <li> <a  class="soutient" href="#">Nous Soutenir</a> </li>
                             </ul>
                         </div><!-- end main-menu -->
                     </div>
@@ -84,46 +84,18 @@
 
         <!--Start Slider-->
         <section id="home" class="slider-section full-height">
-            <div class="pogoSlider full-height" id="pogo-slider">
-                <div class="pogoSlider-slide slide1" data-transition="slide" data-duration="1000">
-                    <!-- Slider Item #1 -->
-                    <div class="banner-inner">
-                        <div class="banner-caption-main">
-                            <div class="container">
-                                <h2  class="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500"><span>S</span>uccess <span>D</span>iver<span>S</span>tory</h2>
-                                <h3 style="text-transform:none;" class="pogoSlider-slide-element"  data-in="slideUp" data-out="slideUp" data-duration="1500" data-delay="500">#DeLaReussiteParmiVous</h3>
-                                <a href=""  class="pogoSlider-slide-element btn btn-primary"  data-in="slideUp" data-out="slideUp" data-duration="1500" data-delay="500">Soutenir la campagne</a>
+            <div class="pogoSlider full-height" data-vide-bg="video/keyboard">
+                    <div class="pogoo" >
+                        <div class="banner-inner">
+                            <div class="banner-caption-main">
+                                <div class="container">
+                                    <h2  class="pogoSlider-slide-element" ><span>S</span>uccess <span>D</span>iver<span>S</span>tory</h2>
+                                    <h3 style="text-transform:none;">#DeLaReussiteParmiVous</h3>
+                                    <a href=""  class="pogoSlider-slide-element btn btn-primary">Soutenir la campagne</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="pogoSlider-slide slide2" data-transition="slide" data-duration="1000" >
-                    <!-- Slider Item #2 -->
-                    <div class="banner-inner">
-                        <div class="banner-caption-main">
-                            <div class="container">
-                                <h2  class="pogoSlider-slide-element"  data-in="slideLeft" data-out="slideLeft" data-duration="750" data-delay="500"> <span>S</span>uccess <span>D</span>iver<span>S</span>tory</h2>
-                                <h3   class="pogoSlider-slide-element"  data-in="slideUp" data-out="slideUp" data-duration="1500" data-delay="500">Nous luttons contre les stéréotypes</h3>
-                                <a href=""  class="pogoSlider-slide-element btn btn-primary"  data-in="slideUp" data-out="slideUp" data-duration="1500" data-delay="500">Notre Mission</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pogoSlider-slide slide3" data-transition="slide" data-duration="1000">
-                    <!-- Slider Item #3 -->
-                    <div class="banner-inner">
-                        <div class="banner-caption-main">
-                            <div class="container">
-                                <!--<img src="images/clients-logo/sdstory-blanc.png" alt="logo success" class="img-logo ">-->
-                                <h2   class="pogoSlider-slide-element" data-in="slideLeft" data-out="slideLeft" data-duration="750" data-delay="500"><span>S</span>uccess <span>D</span>iver<span>S</span>tory</h2>
-                                <h3   class="pogoSlider-slide-element"  data-in="slideUp" data-out="slideUp" data-duration="1500" data-delay="500">un autre regard, un pas vers l'autre...</h3>
-                                <a href=""  class="pogoSlider-slide-element btn btn-primary"  data-in="slideUp" data-out="slideUp" data-duration="1500" data-delay="500">Soutenir la campagne</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         <!--End  Slider-->
@@ -286,7 +258,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="video-inner text-center">
-                            <a name="trailer" href="https://www.youtube.com/embed/rN2hXy3EN58" class="video-play mfp-iframe">
+                            <a name="trailer" href="https://www.youtube.com/watch?v=rN2hXy3EN58" class="video-play mfp-iframe">
                                 <i class="fa fa-play"></i>
                             </a>
                             <h2>Découvrez notre Teaser</h2>
@@ -913,6 +885,9 @@
                                 <li><a alt="youtube" href="https://www.youtube.com/channel/UCVVNUlZpqdWm1YujyhDVn6w" target="_blank" rel="noopener"><i class="fa fa-youtube"></i></a></li>
                                 <li><a alt="linkedin" href="https://www.linkedin.com/company/success-diverstory/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
+                            <p>
+                              TVA: 0000/ 000.000.000
+                            </p>
                         </div>
                     </div>
                     <!--Start copyright-->
@@ -1527,6 +1502,7 @@
         <script src="js/easing.js"  type="text/javascript"></script>
         <script type="text/javascript" src="js/jquery.pogo-slider.js"></script>
         <script src="js/custom.js" type="text/javascript"></script>
+        <script src="js/jquery.vide.min.js"></script>
         <script>
             $('#pogo-slider').pogoSlider({
             autoplay: true,
