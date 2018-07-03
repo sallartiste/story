@@ -843,21 +843,23 @@ ul.work li.active, ul.work li:hover {
     font-size: 1em;
     color: #010103;
     width: 72%;
-	 float:left;
+	float:left;
 }
 .subscribe input[type="submit"]{
-	  outline: none;
+	outline: none;
     padding: 10px 20px;
     border: none;
-    background:#f1c004;
+    background:#fe0;
     font-size: 1em;
     color: #fff;
     float:left;
-	  cursor:pointer;
-		font-weight: bold;
+	cursor:pointer;
+    font-weight: bold;
 }
 .subscribe input[type="submit"]:hover{
-	background:#282846;
+	background:#fff;
+	border: 1px solid #fe0;
+	color: #000;
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;

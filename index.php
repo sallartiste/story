@@ -653,7 +653,7 @@
                     </div>
 
                     <div class="presse col-md-12">
-                       <div class="col-md-2">
+                       <div class="col-md-2 col-xs-8 col-sm-3">
                           <img src="images/clients-logo/brussels-life.png" title="logo brussels life">
                        </div>
                        <div class="col-md-10">
@@ -668,7 +668,7 @@
                     </div>
 
                     <div class="presse col-md-12">
-                       <div class="col-md-2">
+                       <div class="col-md-2 col-xs-8 col-sm-3">
                           <img src="images/clients-logo/phenixtv.jpg" title="logo Phenix Web Tv">
                        </div>
                        <div class="col-md-10">
@@ -684,7 +684,7 @@
                     </div>
 
                     <div class="presse col-md-12">
-                       <div class="col-md-2">
+                       <div class="col-md-2 col-xs-8 col-sm-3">
                           <img src="images/clients-logo/bruxelles-express.jpg" title="logo Be Bruxelles Express">
                        </div>
                        <div class="col-md-10">
@@ -789,35 +789,35 @@
 
                         <div class="part-logo col-md-12 row">
                             <h4>Partenaires Médias</h4>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/the-bulletin.png" title="logo the bulletin"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/bx1.png" title="logo Bruxelles Un"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/brussels-life.png" title="logo brussels life"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/seenspire.png" title="logo seenspire"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/bxfm.png" title="logo bxfm"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/african-mokeli.png" title="logo african mokeli"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/cfm.png" title="logo cfm"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/vv-logo.png" title="logo Voice Venue"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/amc.jpg" title="logo Africa Media Connections"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/missmarketing.jpg" title="logo Miss Marketing"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/the-bulletin.png" title="logo the bulletin"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/bx1.png" title="logo Bruxelles Un"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/brussels-life.png" title="logo brussels life"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/seenspire.png" title="logo seenspire"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/bxfm.png" title="logo bxfm"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/african-mokeli.png" title="logo african mokeli"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/cfm.png" title="logo cfm"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/vv-logo.png" title="logo Voice Venue"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/amc.jpg" title="logo Africa Media Connections"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/missmarketing.jpg" title="logo Miss Marketing"></a></div>
                         </div>
 
                         <div class="part-logo logos col-md-12 row">
                             <h4>Partenaires Institutionnels</h4>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-3 col-md-offset-2"><a href=""><img src="images/clients-logo/bruxelles-ville.png" title="logo Bruxelles ville"></a></div>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-3"><a href=""><img src="images/clients-logo/unia.jpg" title="logo unia"></a></div>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-3"><a href=""><img src="images/clients-logo/jc-decaux.jpg" title="logo Haute Jc Decaux"></a></div>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-3"><a href=""><img src="images/clients-logo/heff-logo.png" title="logo Haute Ecole Francisco Ferrer"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/brux-franco.jpg" title="logo Commission communautaire française"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6 col-md-offset-2"><a href=""><img src="images/clients-logo/bruxelles-ville.png" title="logo Bruxelles ville"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/unia.jpg" title="logo unia"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/jc-decaux.jpg" title="logo Haute Jc Decaux"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/heff-logo.png" title="logo Haute Ecole Francisco Ferrer"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/brux-franco.jpg" title="logo Commission communautaire française"></a></div>
                         </div>
 
                         <div class="part-logo col-md-12 row">
                             <h4>Partenaires Style</h4>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/global-air.png" title="logo Global air concept"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/butch.png" title="logo Butch"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/parachute-jump.jpg" title="logo parachute jump"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/tamiim.jpg" title="logo Tamiim"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/it.jpg" title="logo It Boutique"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-4"><a href=""><img src="images/clients-logo/crossword.jpg" title="logo crossword"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/global-air.png" title="logo Global air concept"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/butch.png" title="logo Butch"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/parachute-jump.jpg" title="logo parachute jump"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/tamiim.jpg" title="logo Tamiim"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/it.jpg" title="logo It Boutique"></a></div>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/crossword.jpg" title="logo crossword"></a></div>
                         </div>
                     </div>
                 </div> <!--/.row-->

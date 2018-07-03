@@ -4,17 +4,17 @@
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
-.navbar-right {
-	float:none !important;
-}
+	.navbar-right {
+		float:none !important;
+	}
 
-.subscribe input[type="email"] {
-		padding: 10px;
-		width: 65%;
-}
-.subscribe input[type="submit"]{
-		padding: 10px 15px;
-}
+	.subscribe input[type="email"] {
+			padding: 10px;
+			width: 65%;
+	}
+	.subscribe input[type="submit"]{
+			padding: 10px 15px;
+	}
 
 
 }
@@ -22,9 +22,9 @@
 
 @media (min-width: 992px) {
 
- #main-menu.collapse {
-	display: block !important;
-}
+	 #main-menu.collapse {
+		display: block !important;
+	}
 
 
 }
@@ -32,142 +32,142 @@
 
  @media (max-width: 992px) {
 
+	#main-menu {
+		background:#202020;
+	}
 
-#main-menu {
-	background:#202020;
-}
+	 .navbar-right {
+		float:none !important;
+		margin-right:0px !important;
+	}
 
- .navbar-right {
-	float:none !important;
-	margin-right:0px !important;
-}
+	 .clear-toggle {
+		display:block;
+	}
 
- .clear-toggle {
-	display:block;
-}
+	 .navbar-toggle {
+		display: block !important;
+	}
 
- .navbar-toggle {
-	display: block !important;
-}
+	 #main-menu ul li {
+		display: block;
+		text-align: left;
+	}
 
- #main-menu ul li {
-	display: block;
-	text-align: left;
-}
+	#main-menu ul li a {
+	    line-height: 23px;
+	    display: inherit;
+	    border-bottom: 1px solid #2C2C2C;
+	    padding: 5px 20px;
+		background:transparent;
+	}
 
-#main-menu ul li a {
-    line-height: 23px;
-    display: inherit;
-    border-bottom: 1px solid #2C2C2C;
-    padding: 5px 20px;
-	background:transparent;
-}
+	#main-menu ul li a:hover, #main-menu ul li.active a {
+		background:#2C2C2C !important;
+		color:#FFF;
+	}
 
-#main-menu ul li a:hover, #main-menu ul li.active a {
-	background:#2C2C2C !important;
-	color:#FFF;
-}
+	#main-menu ul li.active > a {
+	    box-shadow: none !important;
+	}
 
-#main-menu ul li.active > a {
-    box-shadow: none !important;
-}
+	.cta-main .cta-btn-main {
+	    text-align: center;
+	    margin-top: 30px;
+	}
 
-.cta-main .cta-btn-main {
-    text-align: center;
-    margin-top: 30px;
-}
+	.about-intro {
+	    padding-left: 0;
+	}
 
-.about-intro {
-    padding-left: 0;
-}
+	.tabs-main {
+	    padding-right: 0;
+	}
+	.accordion-main {
+	    padding-left: 0;
+	}
 
-.tabs-main {
-    padding-right: 0;
-}
-.accordion-main {
-    padding-left: 0;
-}
-
-.subscribe input[type="email"] {
-		padding: 10px;
-		width: 100%;
-}
-.subscribe input[type="submit"]{
-		padding: 10px 15px;
-		width: 100%;
-}
-
+	.subscribe input[type="email"] {
+			padding: 10px;
+			width: 100%;
+	}
+	.subscribe input[type="submit"]{
+			padding: 10px 15px;
+			width: 100%;
+	}
 
 }
 
 
 @media (max-width: 769px) {
 
-.cta-main{
-	text-align:center;
-}
+	.cta-main{
+		text-align:center;
+	}
 
-.cta-main .cta-btn-main{
-	text-align:center;
-	margin-top:15px;
-}
+	.cta-main .cta-btn-main{
+		text-align:center;
+		margin-top:15px;
+	}
 
-.social-icons , .copyright{
-    text-align: center;
-}
+	.social-icons , .copyright{
+	    text-align: center;
+	}
 
-.section-heading h2 {
-    font-size: 20px;
-}
+	.section-heading h2 {
+	    font-size: 20px;
+	}
+
+	.subscribe h2{
+	}
 
 }
 
 
 @media (max-width: 600px) {
 
-.banner-caption-main h2 {
-	font-size: 32px;
-	line-height:30px;
-}
+	.banner-caption-main h2 {
+		font-size: 32px;
+		line-height:30px;
+	}
 
 
-.banner-caption-main h3 {
-	font-size:16px;
-	line-height: 31px;
-}
+	.banner-caption-main h3 {
+		font-size:16px;
+		line-height: 31px;
+	}
 
-.cta-inner h2 {
-    font-size: 27px;
-    line-height: 40px;
-}
+	.cta-inner h2 {
+	    font-size: 27px;
+	    line-height: 40px;
+	}
 
 
-.cta-inner p {
-    font-size: 14px;
-}
+	.cta-inner p {
+	    font-size: 14px;
+	}
 
+	.subscribe h2{
+		font-size: 1em;
+	}
 
 }
 
 
 @media (max-width: 480px) {
 
-.banner-caption-main h2 {
-    font-size: 29px;
-    line-height: 40px;
-}
+	.banner-caption-main h2 {
+	    font-size: 29px;
+	    line-height: 40px;
+	}
 
-.banner-caption-main p {
-    font-size: 17px;
-    line-height: 26px;
-}
+	.banner-caption-main p {
+	    font-size: 17px;
+	    line-height: 26px;
+	}
 
-.timeline .timeline-item:nth-of-type(2n)::after {
-    left: -10.8%;
-}
-.timeline .timeline-item::after {
-    right: -9.8%;
-}
-
+	.subscribe h2{
+		font-size: 1em;
+	}
 
 }
