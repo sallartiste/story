@@ -3,6 +3,17 @@
 <!doctype html>
 <html lang="fr">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121846623-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-121846623-1');
+        </script>
+
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>SDStory - Success DiverStory</title>
@@ -851,6 +862,7 @@
                                     <textarea class="form-control" name="message" id="message" cols="30" rows="9" placeholder="Votre Message" ></textarea>
                                 </div>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="6LcqXWIUAAAAAE0jSkk7G2v52PxRXuGqWwdAD76M"></div>
                             <div class="col-md-12 text-right">
                                 <input value="Envoyez" name="submit" class="btn btn-primary" type="submit">
                             </div>
@@ -1514,6 +1526,7 @@
             pauseOnHover: false,
             }).data('plugin_pogoSlider');
         </script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 
         <!-- cookies -->
         <script src="https://sdstory.org/js/cookiechoices.js"></script><script>document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar('Ce site utilise des cookies pour vous offrir le meilleur service. En poursuivant votre navigation, vous acceptez l’utilisation des cookies.', 'J’accepte', '', '');});</script>
