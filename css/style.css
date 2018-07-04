@@ -1404,3 +1404,11 @@ footer {
 .parmis h4{
 	margin-bottom: 30px
 }
+
+#cookieChoiceDismiss{
+	border: 1px solid orange;
+	background-color: orange;
+	border-radius: 3px;
+	color: #fff;
+	padding: 0 5px;
+}

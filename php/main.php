@@ -2,7 +2,7 @@
 //Formulaire newsletter
 if(!empty($_POST['Email'])){
 
-	$fieldEmail = $_POST['Email'];
+	$fieldEmail = trim(strip_tags(htmlentities($_POST['Email'],ENT_QUOTES)));
 
 	$mail_to = 'sallartiste@gmail.com';
 	$subject = 'Formulaire newsletter via www.sdstory.org ';

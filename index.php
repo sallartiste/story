@@ -275,7 +275,7 @@
                 <div class="row">
 
                     <div class="section-heading text-center">
-                        <h2 class="title" style="text-transform:none;">#DelaReussiteParmiVous</h2>
+                        <h2 class="title" style="text-transform:none; font-weight:500">#DelaReussiteParmiVous</h2>
                     </div>
 
                     <div class="parmis col-md-7">
@@ -834,7 +834,7 @@
 
 
                     <div class="contact-form">
-                        <form>
+                        <form method="post" action="">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input class="form-control" name="name" id="name" placeholder="Nom"  type="text">
@@ -843,12 +843,12 @@
                                     <input class="form-control" name="email" id="email" placeholder="Email"  type="email">
                                 </div>
                                 <div class=" form-group">
-                                    <input class="form-control" name="subject" id="subject" placeholder="Sujet"  type="text">
+                                    <input class="form-control" name="sujet" id="sujet" placeholder="Sujet"  type="text">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="msg" id="msg" cols="30" rows="9" placeholder="Votre Message" ></textarea>
+                                    <textarea class="form-control" name="message" id="message" cols="30" rows="9" placeholder="Votre Message" ></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12 text-right">
@@ -1521,4 +1521,7 @@
     </body>
 
 </html>
-<?php include 'php/main.php' ?>
+<?php
+    include 'php/main.php';
+    include 'php/send.php';
+ ?>
