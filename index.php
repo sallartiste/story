@@ -683,6 +683,22 @@
                        </div>
                     </div>
 
+                    <div class="presse col-md-12">
+                       <div class="col-md-2 col-xs-8 col-sm-3">
+                          <img src="images/clients-logo/lacapitale.png" title="logo Be Bruxelles Express">
+                       </div>
+                       <div class="col-md-10">
+                           <h4>lacapitale.be</h4>
+                           <p>
+                               #DeLaReussiteParmiVous. L’objectif est de promouvoir la réussite parmi les personnes issues des minorités.
+                               18 profils différents seront exposés à travers d’affiches à Bruxelles et des vidéos sur la page Facebook de l’ASBL «Success DiverStory».<br>
+                               <a href="http://www.lacapitale.be/251417/article/2018-07-04/delareussiteparmivous-une-campagne-contre-les-stereotypes" target="_blank" rel="noopener">
+                                   Lire l'article sur lacapitale.be
+                               </a>
+                           </p>
+                       </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -727,28 +743,6 @@
             </div>
         </section>
         <!--End CTA-->
-
-
-        <!--Start Blog Section
-        <section id="blog" class="section blog-section">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-8 col-sm-12 col-md-offset-2 col-sm-offset-0 text-center">
-                        <div class="section-heading">
-                            <h2>Membres</h2>
-                        </div>
-                        <div class="">
-                            <p>
-                                Devenez membre adhérant et participez à toutes la vie de notre ASBL,
-                                soyez invités aux événements et recevez de nombreuses invitations...
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-End Blog Section-->
 
         <!--Start clients-->
         <section id="clients">
@@ -862,7 +856,7 @@
                                     <textarea class="form-control" name="message" id="message" cols="30" rows="9" placeholder="Votre Message" ></textarea>
                                 </div>
                             </div>
-                            <div class="g-recaptcha" data-sitekey="6LcqXWIUAAAAAE0jSkk7G2v52PxRXuGqWwdAD76M"></div>
+                            <!--<div class="g-recaptcha" data-sitekey="6LcqXWIUAAAAAE0jSkk7G2v52PxRXuGqWwdAD76M"></div>-->
                             <div class="col-md-12 text-right">
                                 <input value="Envoyez" name="submit" class="btn btn-primary" type="submit">
                             </div>
