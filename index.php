@@ -760,9 +760,18 @@
                     <div class="partenaires">
                         <div class="part-logo-1 col-md-12 row">
                             <h4>Partenaires Numériques</h4>
-                            <div class="item-1 col-md-6 col-sm-5 col-xs-5 "><a href=""><img src="images/clients-logo/google.png" title="logo google"></a></div>
-                            <div class="item-1 col-md-6 col-sm-5 col-xs-5"><a href=""><img src="images/clients-logo/semetis.png" title="logo Semetis"></a></div>
+                            <div class="item-1 col-md-4 col-sm-5 col-xs-5 col-md-offset-2"><a href=""><img src="images/clients-logo/google.png" title="logo google"></a></div>
+                            <div class="item-1 col-md-4 col-sm-5 col-xs-5"><a href=""><img src="images/clients-logo/semetis.png" title="logo Semetis"></a></div>
+                            <div class="col-md-2"></div>
+                        </div>
 
+                        <div class="part-logo logos col-md-12 row">
+                            <h4>Partenaires Institutionnels</h4>
+                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/brux-franco.jpg" title="logo Commission communautaire française"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6 col-md-offset-2"><a href=""><img src="images/clients-logo/bruxelles-ville.png" title="logo Bruxelles ville"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/unia.jpg" title="logo unia"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/jc-decaux.jpg" title="logo Haute Jc Decaux"></a></div>
+                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/heff-logo.png" title="logo Haute Ecole Francisco Ferrer"></a></div>
                         </div>
 
                         <div class="part-logo col-md-12 row">
@@ -782,15 +791,6 @@
                             <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/vv-logo.png" title="logo Voice Venue"></a></div>
                             <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/amc.jpg" title="logo Africa Media Connections"></a></div>
                             <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/missmarketing.jpg" title="logo Miss Marketing"></a></div>
-                        </div>
-
-                        <div class="part-logo logos col-md-12 row">
-                            <h4>Partenaires Institutionnels</h4>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-6 col-md-offset-2"><a href=""><img src="images/clients-logo/bruxelles-ville.png" title="logo Bruxelles ville"></a></div>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/unia.jpg" title="logo unia"></a></div>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/jc-decaux.jpg" title="logo Haute Jc Decaux"></a></div>
-                            <div class="item-1 col-md-2 col-sm-4 col-xs-6"><a href=""><img src="images/clients-logo/heff-logo.png" title="logo Haute Ecole Francisco Ferrer"></a></div>
-                            <div class="item-1 col-md-2 col-sm-3 col-xs-6"><a href=""><img src="images/clients-logo/brux-franco.jpg" title="logo Commission communautaire française"></a></div>
                         </div>
 
                         <div class="part-logo col-md-12 row">

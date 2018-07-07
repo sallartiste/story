@@ -4,7 +4,7 @@ if(!empty($_POST['Email'])){
 
 	$fieldEmail = trim(strip_tags(htmlentities($_POST['Email'],ENT_QUOTES)));
 
-	$mail_to = 'sallartiste@gmail.com';
+	$mail_to = 'sdiverstory@gmail.com';
 	$subject = 'Formulaire newsletter via www.sdstory.org ';
 
 	$bodyMessage = 'Ce e-mail vient du formulaire de newsletter du site SDSTORY.ORG: '.$fieldEmail;

@@ -9,7 +9,7 @@ if(isset($_POST['name']) && isset($_POST['email'])){
 		$field_sujet = trim(strip_tags(htmlentities($_POST['sujet'],ENT_QUOTES)));
 		$field_message = trim(strip_tags(htmlentities($_POST['message'],ENT_QUOTES)));
 
-		$mail_to = 'sallartiste@gmail.com';
+		$mail_to = 'sdiverstory@gmail.com';
 		$body_message = 'From: '.$field_name."\n";
 		$body_message .= 'E-mail: '.$field_email."\n";
 		$body_message .= 'Message: '.$field_message;

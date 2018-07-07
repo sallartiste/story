@@ -875,7 +875,7 @@ ul.work li.active, ul.work li:hover {
     background: #DFDFDF;
     font-size: 1em;
     color: #010103;
-    width: 72%;
+    width: 70%;
 	float:left;
 }
 .subscribe input[type="submit"]{
@@ -884,14 +884,14 @@ ul.work li.active, ul.work li:hover {
     border: none;
     background:#fe0;
     font-size: 1em;
-    color: #fff;
+    color: #000;
     float:left;
 	cursor:pointer;
     font-weight: bold;
 }
 .subscribe input[type="submit"]:hover{
 	background:#fff;
-	border: 1px solid #fe0;
+	border: 0px solid #fe0;
 	color: #000;
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -1269,9 +1269,10 @@ ul.work li.active, ul.work li:hover {
 	height: auto;
 }
 
-.logos .item-1:nth-child(6){
+.logos .item-1:nth-child(2){
 	width: inherit;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .logos>img:nth-child(5){
